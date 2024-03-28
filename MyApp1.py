@@ -49,7 +49,6 @@ dxt=[a,b,c,d]
 cxx=pd.DataFrame(dxt,index=["sepal.length", "sepal.width", "petal.length","petal.width"])
 st.area_chart(cxx)
 
-
 st.write('ค่ามากที่สุด')
 cl21,cl22,cl23,cl24=st.columns(4)
 cl21.write(dt['sepal.length'].max())
@@ -66,7 +65,6 @@ fig1, ax1 = plt.subplots()
 ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
         shadow=True, startangle=90)
 st.pyplot(fig1)
-
 
 st.write('ค่าน้อยที่สุด')
 cl31,cl32,cl33,cl34=st.columns(4)
