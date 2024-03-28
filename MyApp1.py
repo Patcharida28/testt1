@@ -7,7 +7,7 @@ st.header("🌶️Website Developing using Python🌶️")
 st.subheader("🍔Patcharida Choomchoo🍔")
 st.image('patch.jpg')
 
-dt=pd.read_csv('_/data/iris.csv')
+dt=pd.read_csv('./data/iris.csv')
 
 st.header("ข้อมูลดอกไม้ iris")
 st.write(dt.head(10))
