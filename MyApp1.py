@@ -13,7 +13,7 @@ st.header("ข้อมูลดอกไม้ iris")
 st.write(dt.head(10))
 
 st.subheader("สถิติข้อมูลดอกไม้ iris")
-st.write("ผลรวม")
+st.write('ผลรวม')
 cl1,cl2,cl3,cl4 = st.columns(4)
 cl1.write(dt['sepal.length'].sum())
 cl2.write(dt['sepal.width'].sum())
@@ -22,6 +22,6 @@ cl4.write(dt['petal.width'].sum())
 #Index(['sepal.length', 'sepal.width', 'petal.length', 'petal.width',
 #      'variety'],
 
-st.write("ค่าเฉลี่ย")
-st.write("ค่ามากที่สุด")
-st.write("ค่าน้อยที่สุด")
+st.write('ค่าเฉลี่ย')
+st.write('ค่ามากที่สุด')
+st.write('ค่าน้อยที่สุด')
