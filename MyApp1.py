@@ -29,6 +29,7 @@ dx=pd.DataFrame(
 )
 st.bar_chart(dx,x='col1',y='col2',color='col3')
 
+
 st.write('ค่าเฉลี่ย')
 cl1,cl2,cl3,cl4 = st.columns(4)
 cl1.write(dt['sepal.length'].mean())
